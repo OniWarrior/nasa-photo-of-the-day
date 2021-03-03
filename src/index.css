@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+  background-color: black;
+  color:rgb(139, 0, 104);
+}
+
+.photo-of-the-day{
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+}
+img{
+  width: 90%;
 }
